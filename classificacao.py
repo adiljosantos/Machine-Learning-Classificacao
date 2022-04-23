@@ -18,12 +18,15 @@ modelo.fit(dados, marcacoes)
 
 elementoMisterioso1 = [[1, 1, 1]]
 elementoMisterioso2 = [[1, 0, 0]]
+elementoMisterioso3 = [[0, 0, 1]]
 
-print(modelo.predict(elementoMisterioso1))
-print(modelo.predict(elementoMisterioso2))
+teste = (elementoMisterioso1, elementoMisterioso2, elementoMisterioso3)
 
-teste = (modelo.predict(elementoMisterioso1), modelo.predict(elementoMisterioso2))
-print(teste)
+marcacoes_teste = [-1, 1, -1]
+
+resultado = modelo.predict(teste)
+
+print(resultado)
 
 
 
