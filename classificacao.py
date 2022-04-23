@@ -1,6 +1,6 @@
 from sklearn.naive_bayes import MultinomialNB
 
-#  | É gordinho  |  tem perna curta  |  faz au au  |  São as variaveis da matriz
+#  | É gordinho  |  tem perna curta  |  faz au au  |  São as variaveis da matriz  (sendo 1 para sim e 0 para não)
 
 porco1 =    [1, 1, 0]
 porco2 =    [1, 1, 0]
