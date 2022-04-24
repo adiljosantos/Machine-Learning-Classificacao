@@ -32,3 +32,5 @@ print("O total de acertos foi", total_de_acertos,
       "de um total de ", total_de_elementos, "elementos testados")
 print("A taxa de acerto foi de ", total_de_acertos / total_de_elementos * 100, "%")
 
+# Separamos os dados de treino e de marcação e validamos o nosso algoritmo
+
