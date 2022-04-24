@@ -1,5 +1,6 @@
 import csv
 
+# Importamos os dados contidos no arquivo csv
 # Quais as caracteristicas de acesso do usuario nas páginas do site?
 #  | acessou a home? | acessou como funciona? | acessou contatos? | comprou?  | São as variaveis da matriz  (sendo 1 para sim e 0 para não)
 # as tres primeiras colunas são as caracteristicas que desejamos analisar sobre o comportamento do usuario, a ultima é a marcação
@@ -23,5 +24,7 @@ def carregar_acessos():
         y.append(int(comprou))
 
     return x, y
+
+
 
 
